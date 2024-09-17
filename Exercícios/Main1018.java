@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Main1018 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int valor = scanner.nextInt();
+        Scanner in = new Scanner(System.in);
+        int valor = in.nextInt();
         System.out.println(valor);
 
         int[] notas = {100, 50, 20, 10, 5, 2, 1};
@@ -13,6 +13,6 @@ public class Main1018 {
             valor %= nota;
         }
 
-        scanner.close();
+        in.close();
     }
 }

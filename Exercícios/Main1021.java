@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Main1021 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        double valor = scanner.nextDouble();
+        Scanner in = new Scanner(System.in);
+        double valor = in.nextDouble();
         int notas = (int) valor;
         int moedas = (int) ((valor - notas) * 100);
         
@@ -23,6 +23,6 @@ public class Main1021 {
             moedas %= moeda;
         }
 
-        scanner.close();
+        in.close();
     }
 }

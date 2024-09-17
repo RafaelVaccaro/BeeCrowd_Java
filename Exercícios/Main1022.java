@@ -3,17 +3,17 @@ import java.util.Scanner;
 public class Main1022 {
     @SuppressWarnings("unused")
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
         
         for (int i = 0; i < n; i++) {
-            int n1 = scanner.nextInt();
-            String lixo1 = scanner.next();
-            int d1 = scanner.nextInt();
-            String operador = scanner.next();
-            int n2 = scanner.nextInt();
-            String lixo2 = scanner.next();
-            int d2 = scanner.nextInt();
+            int n1 = in.nextInt();
+            String lixo1 = in.next();
+            int d1 = in.nextInt();
+            String operador = in.next();
+            int n2 = in.nextInt();
+            String lixo2 = in.next();
+            int d2 = in.nextInt();
             
             int num = 0, den = 0;
             
@@ -40,7 +40,7 @@ public class Main1022 {
             System.out.printf("%d/%d = %d/%d%n", num, den, num / gcd, den / gcd);
         }
         
-        scanner.close();
+        in.close();
     }
     
     public static int gcd(int a, int b) {

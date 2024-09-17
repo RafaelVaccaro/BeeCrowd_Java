@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Main1020 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int diasTotais = scanner.nextInt();
+        Scanner in = new Scanner(System.in);
+        int diasTotais = in.nextInt();
         
         int anos = diasTotais / 365;
         diasTotais %= 365;
@@ -14,6 +14,6 @@ public class Main1020 {
         System.out.println(meses + " mes(es)");
         System.out.println(dias + " dia(s)");
 
-        scanner.close();
+        in.close();
     }
 }

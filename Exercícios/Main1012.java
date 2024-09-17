@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class Main1012 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        double a = scanner.nextDouble();
-        double b = scanner.nextDouble();
-        double c = scanner.nextDouble();
+        Scanner in = new Scanner(System.in);
+        double a = in.nextDouble();
+        double b = in.nextDouble();
+        double c = in.nextDouble();
         
         double areaTriangulo = (a * c) / 2;
         double areaCirculo = Math.PI * Math.pow(c, 2);
@@ -19,6 +19,6 @@ public class Main1012 {
         System.out.printf("QUADRADO: %.3f%n", areaQuadrado);
         System.out.printf("RETANGULO: %.3f%n", areaRetangulo);
         
-        scanner.close();
+        in.close();
     }
 }
