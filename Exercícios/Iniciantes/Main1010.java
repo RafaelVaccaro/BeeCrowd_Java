@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
+@SuppressWarnings("unused")
 public class Main1010 {
-    @SuppressWarnings("unused")
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         

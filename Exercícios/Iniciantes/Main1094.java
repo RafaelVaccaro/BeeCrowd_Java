@@ -7,6 +7,7 @@ public class Main1094 {
         int casos = in.nextInt();
         int total = 0, totalC = 0, totalR = 0, totalS = 0;
         double pC, pR, pS;
+        char ptg = '%';
 
         for (int i = 0; i < casos; i++) {
             int qtd = in.nextInt();
@@ -33,9 +34,9 @@ public class Main1094 {
         System.out.printf("Total de coelhos: %d\n", totalC);
         System.out.printf("Total de ratos: %d\n", totalR);
         System.out.printf("Total de sapos: %d\n", totalS);
-        System.out.printf("Percentual de coelhos: %.2f \n", pC);
-        System.out.printf("Percentual de ratos: %.2f \n", pR);
-        System.out.printf("Percentual de sapos: %.2f \n", pS);
+        System.out.printf("Percentual de coelhos: %.2f %s\n", pC, ptg);
+        System.out.printf("Percentual de ratos: %.2f %s\n", pR, ptg);
+        System.out.printf("Percentual de sapos: %.2f %s\n", pS, ptg);
         in.close();
     }
 }
