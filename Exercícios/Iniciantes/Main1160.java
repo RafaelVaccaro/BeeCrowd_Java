@@ -14,8 +14,8 @@ public class Main1160 {
             int anos = 0;
 
             while (PA <= PB) {
-                PA += PA * G1 / 100;
-                PB += PB * G2 / 100;
+                PA += (int) (PA * G1 / 100);
+                PB += (int) (PB * G2 / 100);
                 anos++;
 
                 if (anos > 100) {
